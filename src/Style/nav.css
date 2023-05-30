@@ -1,0 +1,38 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: max-content;
+  display: flex;
+  padding: .1rem 100%;
+  gap: 2rem;
+  z-index: 2;
+  transform: translateX(-50%);
+  position: fixed;
+  top: 0;
+  left: 50%;
+  border-radius: 0;
+}
+
+nav a{
+    background: transparent;
+    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    padding: 10px;
+    color: var(--color-light);
+}
+
+nav a:hover{
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--color-primary);
+    
+} 
+
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+  
+}
